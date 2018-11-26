@@ -1,0 +1,8 @@
+<h1>All songs</h1>
+<tbody>
+ <% @songs.each do |s| %>
+<tr> <%= link_to s.title %> - <%= s.artist_name %> (<%= s.release_year %>)</tr><br>
+<% end %>
+ </tbody>
+
+<%= link_to "Cancel", songs_path %>

@@ -29,7 +29,7 @@ Use the `resource` generator, **not** the `scaffold` generator
 
 2.  Define all RESTful routes for songs
 
-3.  Build views that connect to each other using route helpers. 
+3.  Build views that connect to each other using route helpers.
 
 4.  Use `form_for` to build forms with pre-fill and error list features. (_Hint:
     Try using a partial to cut down on copy/pasting!_)
